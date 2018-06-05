@@ -1,0 +1,54 @@
+# This file will be read by resetprop
+# Example: Change dpi
+# ro.sf.lcd_density=320
+
+
+ro.xtrememusic.is_active=true
+audio.offload.pcm.24bit.enable=true
+audio.offload.multiple.enabled=true
+audio.offload.gapless.enabled=true
+audio.offload.passthrough=false
+audio.offload.track.enabled=true
+tunnel.audio.encode=false
+audio.offload.min.duration.secs=30
+htc.audio.swalt.enable=1
+htc.audio.swalt.mingain=14512
+htc.audio.alc.enable=1
+persist.audio.SupportHTCHWAEC=1
+ro.audio.samplerate=96000
+ro.somc.ldac.audio.supported=true
+ro.audio.pcm.samplerate=96000
+AUDIODRIVER=alsa
+ro.sound.driver=alsa
+persist.vivo.phone.hifi=Have_hifi
+ro.config.hifi_config_state=1
+use.dts_m6=true 
+use.dts_m6_notify=true
+use.dts_eagle=true
+persist.audio.hifi_dac=ON
+persist.audio.voice.clarity=ON
+alsa.mixer.playback.master=Speaker
+alsa.mixer.capture.master=Mic
+alsa.mixer.playback.earpiece=Earpiece
+alsa.mixer.capture.earpiece=Mic
+alsa.mixer.playback.headset=Headset
+alsa.mixer.capture.headset=Mic
+alsa.mixer.playback.speaker=Speaker
+alsa.mixer.capture.speaker=Mic
+alsa.mixer.playback.bt.sco=BTHeadset
+alsa.mixer.capture.bt.sco=BTHeadset
+htc.audio.lpa.a2dp=0
+htc.audio.global.state=0
+htc.audio.global.profile=0
+htc.audio.q6.topology=0
+htc.audio.enable_dmic=1
+htc.audio.swalt.enable=1
+htc.audio.swalt.mingain=14512
+htc.audio.alc.enable=1
+ro.config.hw_dolby=true
+ro.config.hw_dts=true
+# Harman Kardon
+support_harman=true
+support_boomsound_effect=true
+# Support for sony automatic headphone compensation
+sony.ahc.supported=yes

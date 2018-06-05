@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configurations>
+<system>
+  <item type="boolean" name="support_boomsound_effect">true</item>
+  <item type="boolean" name="support_harman">true</item>
+  <item type="boolean" name="support_beats_audio">true</item>
+</system>
+</configurations>
