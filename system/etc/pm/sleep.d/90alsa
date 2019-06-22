@@ -1,0 +1,14 @@
+#!/bin/sh
+
+case "$1" in
+hibernate|suspend)
+;;
+thaw|resume)
+cd /system/bin/
+aplay -d 1 /dev/zero
+;;
+*) exit $NA
+;;
+esac
+
+chmod 666 /dev/snd/*
