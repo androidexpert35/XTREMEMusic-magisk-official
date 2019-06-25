@@ -117,6 +117,10 @@ exit 1
 fi
 }
 set_xtreme() {
+
+   mkdir -p $MODPATH/system/vendor/lib/soundfx
+   mkdir -p $MODPATH/system/lib/soundfx
+
 if [ -e /system/framework/com.sony.device.jar ]; 
 then
    cp -f /dev/tmp/XTREME/Supported/samsung/lib/* $MODPATH/system/lib/
@@ -134,7 +138,6 @@ then
 elif [ $(grep ro.product.brand=htc /system/build.prop) ];
 then
    cp -f /dev/tmp/XTREME/Supported/samsung/lib/* $MODPATH/system/lib/
-   
    cp -f /dev/tmp/XTREME/Supported/samsung/vendor/* $MODPATH/system/vendor/lib/
    cp -f /dev/tmp/XTREME/Supported/lib/liblgaudioutils.so $MODPATH/system/lib/
    cp -f /dev/tmp/XTREME/Supported/lib/liblgresampler.so $MODPATH/system/lib/
